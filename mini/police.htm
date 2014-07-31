@@ -1,0 +1,60 @@
+<html>
+<head>
+<title>toggle_it() Demo</title>
+<script language="javascript">
+  function toggle_it(itemID){
+      // Toggle visibility between none and inline
+      if ((document.getElementById(itemID).style.display == 'none'))
+      {
+        document.getElementById(itemID).style.display = 'inline';
+      } else {
+        document.getElementById(itemID).style.display = 'none';
+      }
+  }
+</script>
+<style type="text/css">
+<!--
+.style5 {font-family: Arial, Helvetica, sans-serif; font-size: 10; }
+.style7 {font-family: Arial, Helvetica, sans-serif; font-size: 10px; }
+-->
+</style>
+<body>
+<form name="test" action="" method="post">
+<table width="199">
+<tr class="style7">
+  <td width="50%" align="right" height="23" valign="middle"><a href="#" onClick="toggle_it('pr1')">Toggle Form?</a> :</td>
+  <td height="23" valign="middle" > 
+    </td>
+</tr>
+<tr >
+  <td colspan="2">
+        <!--
+            This is the table we will be showing, or hiding. Note it's id.
+            If you are producing a series of table rows from a database,
+            you can give each row a dynamic id, perhaps the key for the row from the database,
+            and use the show hide property for extended information, streamlining your page's presentation,
+            but still giving the availability of all the information without additional page loads.
+        -->
+        <table width="100%" id="pr1" name="police_response1" style="display:none;">
+          <tr>
+            <td align="right"><span class="style7">Drop Box 1:</span></td>
+              <td><span class="style5">
+                <SELECT NAME='Numbers' class="style7" ID='Numbers'>
+                <option value='00'>00</option>
+                <option value='01'>01</option>
+                <option value='01'>01</option>
+                <option value='01'>01</option>
+              </SELECT>
+              </span> </td>
+              </tr>
+            <tr>
+                  <td align="right"><span class="style7">Report Number:</span></td>
+                  <td><INPUT NAME='Text' TYPE='textbox' class="style7" VALUE='' SIZE='12'></td>
+            </tr>
+        </table>
+        </td>
+    </tr>
+</table>
+</form>
+</body>
+</html>

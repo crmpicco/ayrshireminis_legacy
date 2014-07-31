@@ -1,0 +1,138 @@
+/* General page style. The scroll bar colours only visible in IE5.5+ */
+body {
+	background:#868686 url(images/background.jpg) repeat-x; margin:0; color:#3f3f3f;
+}
+.logo { float:left; width:398px; margin:10px 0 0 12px; height:94px; }
+.header {
+	background: url(images/header.jpg);
+}
+img { border:0; }
+.member { padding:78px 23px 0 0; margin:0; text-align:center; height:25px; font-size:12px; line-height:25px; }
+.member a:hover { color:#333333; }
+.mainoption, .liteoption, .button, select { font-size:10px; }
+input.login { background:#3f3f3f; font-size:10px; color:#ffffff; border:solid 1px; border-left-color:#4f7c19; border-top-color:#4f7c19; border-right-color:#d3e254; border-bottom-color:#d3e254; width:125px; }
+
+.topnav { text-align:center; font-size:12px; margin:1px 0 58px; height:29px; line-height:29px; }
+.topnav a { margin:0 15px; }
+.topnav a:hover { text-decoration:none; color:#5d921e; }
+
+.footer { background:url(images/footer.jpg) bottom no-repeat; padding-bottom:20px; }
+
+/* General font families for common tags */
+font,th,td,p { font-family: Verdana, Arial, Helvetica, sans-serif }
+a { color : #3f3f3f; font-weight:bold; text-decoration:none }
+a:hover { color:#5d921e; }
+hr	{ height: 0px; border: solid #aeaeae 0px; border-top-width: 1px;}
+th b { color:#3f3f3f; }
+
+.forumline	{ background-color: #FFFFFF; }
+.bodyline { background: url(images/page_bg.jpg) repeat-y; }
+.main { padding:0 12px; }
+
+/* Main table cell colours and backgrounds */
+td.row1	{ background-color: #f3f3f3; padding:5px; }
+td.row2	{ background-color: #eeeeee; padding:5px; }
+td.row3	{ background-color: #e3e3e3; padding:5px; }
+
+
+/*
+  This is for the table cell above the Topics, Post & Last posts on the index.php page
+  By default this is the fading out gradiated silver background.
+  However, you could replace this with a bitmap specific for each forum
+*/
+
+/* Header cells - the blue and silver gradient backgrounds */
+th	{
+	color: #ffffff; font-size: 11px; font-weight : bold; height: 25px;
+	background: url(images/cellpic3.gif) #5d921e; padding:0 5px; line-height:25px;
+}
+
+td.cat,td.catHead,td.catSides,td.catLeft,td.catRight,td.catBottom {
+			background: url(images/cellpic1.gif) #3f3f3f;
+			padding:0 5px; line-height:25px; height:25px; color:#ffffff;
+}
+
+
+/*
+  Setting additional nice inner borders for the main table cells.
+  The names indicate which sides the border will be on.
+  Don't worry if you don't understand this, just ignore it :-)
+*/
+
+td.row3Right {
+	background-color: #dddddd; }
+
+
+/* The largest text used in the index page title and toptic title etc. */
+.maintitle,h1,h2	{
+			font-weight: bold; font-size: 22px; font-family: "Trebuchet MS",Verdana, Arial, Helvetica, sans-serif;
+			text-decoration: none; line-height : 120%; color : #000000;
+}
+
+
+/* General text */
+.gen { font-size : 12px; }
+.genmed { font-size : 11px; }
+.gensmall { font-size : 10px; }
+a.gen:hover,a.genmed:hover,a.gensmall:hover	{ color: #5d921e;  }
+
+
+
+
+/* Forum category titles */
+.cattitle		{ font-weight: bold; font-size: 12px ; letter-spacing: 1px; color : #ffffff}
+a.cattitle, .catHead a, .catLeft a, .catBottom a, .catSides a, .catRight a		{ text-decoration: none; color : #ffffff; }
+a.cattitle:hover, .catHead a:hover, .catLeft a:hover, .catBottom a:hover, .catSides a:hover, .catRight a:hover { text-decoration: underline; }
+
+
+/* Forum title: Text and link to the forums used in: index.php */
+.forumlink		{ font-weight: bold; font-size: 12px; }
+a.forumlink:hover{ color : #5d921e; }
+
+
+/* Used for the navigation text, (Page 1,2,3 etc) and the navigation bar when in a forum */
+.nav			{ font-weight: bold; font-size: 11px; }
+
+
+/* titles for the topics: could specify viewed link colour too */
+.topictitle			{ font-weight: bold; font-size: 11px; }
+a.topictitle:visited { color : #333333; }
+a.topictitle:hover	{ color : #5d921e; }
+
+form { margin:0; padding:0 }
+/* Name of poster in viewmsg.php and viewtopic.php and other places */
+.name			{ font-size : 11px; color : #000000;}
+
+/* Location, number of posts, post date etc */
+.postdetails		{ font-size : 10px; color : #000000; }
+
+
+/* The content of the posts (body of text) */
+.postbody { font-size : 12px;}
+a.postlink:visited { color : #333333; }
+b { color:#999999;}
+
+/* Quote & Code blocks */
+.code {
+	font-family: Courier, 'Courier New', sans-serif; font-size: 11px; color: #006600;
+	background-color: #FAFAFA; border: #D1D7DC; border-style: solid;
+	border-left-width: 1px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px
+}
+
+.quote {
+	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; color: #444444; line-height: 125%;
+	background-color: #FAFAFA; border: #D1D7DC; border-style: solid;
+	border-left-width: 1px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px
+}
+
+
+/* Copyright and bottom info */
+.copyright		{ font-size: 10px; font-family: Verdana, Arial, Helvetica, sans-serif; letter-spacing: -1px;}
+a.copyright:hover { color: #5d921e;}
+
+
+/* This is the line in the posting page which shows the rollover
+  help line. This is actually a text box, but if set to be the same
+  colour as the background no one will know ;)
+*/
+.helpline { background-color: #DEE3E7; border-style: none; }

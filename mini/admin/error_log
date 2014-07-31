@@ -1,0 +1,5 @@
+[16-Dec-2009 04:38:25] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Unknown MySQL server host 'ayrshireminis.com' (-1) in /home/ayrshire/public_html/mini/inc/dbconn.php on line 5
+[27-Dec-2009 19:20:55] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Unknown MySQL server host 'ayrshireminis.com' (-1) in /home/ayrshire/public_html/mini/inc/dbconn.php on line 5
+[27-Dec-2009 19:26:18] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Unknown MySQL server host 'ayrshireminis.com' (-1) in /home/ayrshire/public_html/mini/inc/dbconn.php on line 5
+[27-Dec-2009 19:26:41] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Unknown MySQL server host 'ayrshireminis.com' (-1) in /home/ayrshire/public_html/mini/inc/dbconn.php on line 5
+[27-Dec-2009 19:26:50] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Unknown MySQL server host 'ayrshireminis.com' (-1) in /home/ayrshire/public_html/mini/inc/dbconn.php on line 5

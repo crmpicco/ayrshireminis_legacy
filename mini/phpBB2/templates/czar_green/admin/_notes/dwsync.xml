@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="admin_message_body.tpl" local="128109290670625000" remote="128109329400000000" testing="0" />
+<file name="auth_forum_body.tpl" local="128109290670625000" remote="128109329400000000" testing="0" />
+<file name="auth_select_body.tpl" local="128109290670625000" remote="128109329400000000" testing="0" />
+<file name="auth_ug_body.tpl" local="128109290671093750" remote="128109329400000000" testing="0" />
+<file name="board_config_body.tpl" local="128109290671093750" remote="128109329400000000" testing="0" />
+<file name="category_edit_body.tpl" local="128109290671093750" remote="128109329400000000" testing="0" />
+<file name="confirm_body.tpl" local="128109290671250000" remote="128109329400000000" testing="0" />
+<file name="db_utils_backup_body.tpl" local="128109290671406250" remote="128109329400000000" testing="0" />
+<file name="db_utils_restore_body.tpl" local="128109290671406250" remote="128109329400000000" testing="0" />
+<file name="disallow_body.tpl" local="128109290671562500" remote="128109329400000000" testing="0" />
+<file name="forum_admin_body.tpl" local="128109291298593750" remote="128109329400000000" testing="0" />
+<file name="forum_delete_body.tpl" local="128109290671562500" remote="128109329400000000" testing="0" />
+<file name="forum_edit_body.tpl" local="128109290671562500" remote="128109329400000000" testing="0" />
+<file name="forum_prune_body.tpl" local="128109290671718750" remote="128109329400000000" testing="0" />
+<file name="forum_prune_result_body.tpl" local="128109290671718750" remote="128109329400000000" testing="0" />
+<file name="forum_prune_select_body.tpl" local="128109290671718750" remote="128109329400000000" testing="0" />
+<file name="group_edit_body.tpl" local="128109290671718750" remote="128109329400000000" testing="0" />
+<file name="group_select_body.tpl" local="128109290671875000" remote="128109329400000000" testing="0" />
+<file name="index.htm" local="128109290671875000" remote="128109329400000000" testing="0" />
+<file name="index_body.tpl" local="128109291299062500" remote="128109329400000000" testing="0" />
+<file name="index_frameset.tpl" local="128109290671875000" remote="128109329400000000" testing="0" />
+<file name="index_navigate.tpl" local="128109343844843750" remote="128109381000000000" testing="0" />
+<file name="page_footer.tpl" local="128109298879843750" remote="128109336000000000" testing="0" />
+<file name="page_header.tpl" local="128109298990781250" remote="128109336000000000" testing="0" />
+<file name="ranks_edit_body.tpl" local="128109290672031250" remote="128109329400000000" testing="0" />
+<file name="ranks_list_body.tpl" local="128109290672187500" remote="128109329400000000" testing="0" />
+<file name="smile_edit_body.tpl" local="128109290672187500" remote="128109329400000000" testing="0" />
+<file name="smile_import_body.tpl" local="128109290672187500" remote="128109329400000000" testing="0" />
+<file name="smile_list_body.tpl" local="128109290672343750" remote="128109329400000000" testing="0" />
+<file name="styles_addnew_body.tpl" local="128109290672343750" remote="128109329400000000" testing="0" />
+<file name="styles_edit_body.tpl" local="128109290672343750" remote="128109329400000000" testing="0" />
+<file name="styles_exporter.tpl" local="128109290672343750" remote="128109329400000000" testing="0" />
+<file name="styles_list_body.tpl" local="128109290672500000" remote="128109329400000000" testing="0" />
+<file name="user_avatar_gallery.tpl" local="128109290672500000" remote="128109329400000000" testing="0" />
+<file name="user_ban_body.tpl" local="128109290672500000" remote="128109329400000000" testing="0" />
+<file name="user_edit_body.tpl" local="128109290672500000" remote="128109329400000000" testing="0" />
+<file name="user_email_body.tpl" local="128109290672656250" remote="128109329400000000" testing="0" />
+<file name="user_select_body.tpl" local="128109290672656250" remote="128109329400000000" testing="0" />
+<file name="words_edit_body.tpl" local="128109290672656250" remote="128109329400000000" testing="0" />
+<file name="words_list_body.tpl" local="128109290672812500" remote="128109329400000000" testing="0" />
+</dwsync>

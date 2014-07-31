@@ -1,0 +1,54 @@
+<?php
+
+require_once $GLOBALS["CONF"]->SWIFT_LIBRARY_PATH . "/Swift.php";
+Swift_ClassLoader::load("EasySwift");
+Swift_ClassLoader::load("Swift_Connection_SMTP");
+Swift_ClassLoader::load("Swift_Connection_Sendmail");
+Swift_ClassLoader::load("Swift_Connection_NativeMail");
+Swift_ClassLoader::load("Swift_Connection_Rotator");
+Swift_ClassLoader::load("Swift_Connection_Multi");
+Swift_ClassLoader::load("Swift_Authenticator_LOGIN");
+Swift_ClassLoader::load("Swift_Authenticator_PLAIN");
+Swift_ClassLoader::load("Swift_Authenticator_CRAMMD5");
+Swift_ClassLoader::load("Swift_Cache_Disk");
+Swift_ClassLoader::load("Swift_Cache_Memory");
+Swift_ClassLoader::load("Swift_Events_SendEvent");
+Swift_ClassLoader::load("Swift_Events_ConnectEvent");
+Swift_ClassLoader::load("Swift_Events_DisconnectEvent");
+Swift_ClassLoader::load("Swift_Events_CommandEvent");
+Swift_ClassLoader::load("Swift_Events_ResponseEvent");
+Swift_ClassLoader::load("Swift_Events_Listener");
+Swift_ClassLoader::load("Swift_Plugin_AntiFlood");
+Swift_ClassLoader::load("Swift_Plugin_BandwidthMonitor");
+Swift_ClassLoader::load("Swift_Plugin_Throttler");
+Swift_ClassLoader::load("Swift_Plugin_VerboseSending");
+Swift_ClassLoader::load("Swift_Plugin_ConnectionRotator");
+Swift_ClassLoader::load("Swift_Plugin_Decorator");
+Swift_ClassLoader::load("Swift_Message_Headers");
+Swift_ClassLoader::load("Swift_CacheFactory");
+Swift_ClassLoader::load("Swift_Log_DefaultLog");
+Swift_ClassLoader::load("Swift_Message_Encoder");
+Swift_ClassLoader::load("Swift_Cache_JointOutputStream");
+require_once $GLOBALS["CONF"]->SWIFT_LIBRARY_PATH . "/Swift/Authenticator/@PopB4Smtp.php";
+Swift_ClassLoader::load("Swift_Authenticator_PopB4Smtp_Pop3Connection");
+
+require_once dirname(__FILE__) . "/AbstractTestWithSend.php";
+require_once dirname(__FILE__) . "/AbstractTestOfCache.php";
+require_once dirname(__FILE__) . "/AbstractTestOfAuthenticator.php";
+require_once dirname(__FILE__) . "/stubs/MimeExtension.php";
+require_once dirname(__FILE__) . "/stubs/DummyConnection.php";
+
+Mock::Generate("DummyConnection", "FullMockConnection");
+Mock::Generate("Swift_Connection_Rotator", "MockRotatorConnection");
+Mock::Generate("Swift_Message", "MockMessage");
+Mock::GeneratePartial("Swift_Events_Listener", "MockSendListener", array("sendPerformed"));
+Mock::GeneratePartial("Swift_Events_Listener", "MockBeforeSendListener", array("beforeSendPerformed"));
+Mock::GeneratePartial("Swift_Events_Listener", "MockCommandListener", array("commandSent"));
+Mock::GeneratePartial("Swift_Events_Listener", "MockBeforeCommandListener", array("beforeCommandSent"));
+Mock::GeneratePartial("Swift_Events_Listener", "MockResponseListener", array("responseReceived"));
+Mock::GeneratePartial("Swift_Events_Listener", "MockConnectListener", array("connectPerformed"));
+Mock::GeneratePartial("Swift_Events_Listener", "MockDisconnectListener", array("disconnectPerformed"));
+Mock::Generate("Swift_Connection_SMTP", "MockSMTPConnection");
+Mock::GeneratePartial("Swift_Connection_SMTP", "MockSMTPConnectionAuth", array("read", "write", "isAlive", "start", "stop"));
+Mock::GeneratePartial("Swift_Connection_SMTP", "PartialSmtpConnectionIO", array("read", "write"));
+Mock::Generate("Swift_Message_Headers", "MockHeaders");

@@ -1,0 +1,385 @@
+/*
+AyrshireMinis.com
+CSS Stylesheet
+27-Sep-2007
+*/
+
+BODY {
+	background: #fff url(/mini/images/bg.gif) top left repeat-x;
+}
+a:link { 
+	color: #003300; 
+}
+a:visited { 
+	color: #003300; 
+}
+a:hover { 
+	color: #0000FF; 
+	color: red;
+	text-decoration: underline;
+}
+a:active { 
+	color: #003300; 
+	color: red;
+	text-decoration: underline;
+}
+a {
+	text-decoration: none;
+}
+.text_medium {
+	color: white;
+	font-family: Verdana;
+	font-size: 9pt;
+}
+.text_medium_dark {
+	color: #000000;
+	font-family: Verdana;
+	font-size: 9pt;
+}
+.text_small {
+	color: white;
+	font-family: Verdana;
+	font-size: 8pt;
+}
+.text_v_small {
+	color: white;
+	font-family: Verdana;
+	font-size: 7pt;
+}
+.text_v_small_dark {
+	color: #000000;
+	font-family: Verdana;
+	font-size: 7pt;
+}
+.text_small_dark {
+	color: #000000;
+	font-family: Verdana;
+	font-size: 8pt;
+}
+.text_head {
+	font-family: Verdana;
+	font-size: 9pt;
+	font-weight: bold;
+}
+.textbox {
+	font-family: Verdana;
+	font-size: 8pt;
+}
+.select_small {
+	font-family: Verdana;
+	font-size: 8pt;
+	vertical-align: top;
+}
+.select_optgroup {
+	font-family: Verdana;
+	font-size: 8pt;
+	font-style: normal;
+}
+.foot {
+  background: none;
+  vertical-align: bottom;  
+}
+
+#submit {
+	font-family: Verdana;
+	font-size: 10pt;
+}
+
+.footer {
+  font-family      : Verdana, Arial, Helvetica, sans-serif;
+  font-size        : 10px;
+  color            : #666666;
+  font-weight      : bold;
+  height           : 31px;
+  border-top       : 1px solid #cccccc;
+
+ 
+ }
+.footer a:link, .footer a:visited {
+  font-size        : 10px;
+  color            : #666666;
+  text-decoration  : none;
+  font-weight      : bold;
+}
+.footer a:hover {
+  font-size        : 10px;
+  color            : #999999;
+  text-decoration  : none;
+  font-weight      : bold;
+}
+
+.footer_colour {
+	text-align: center;
+	font-size: 8px;
+}
+
+.select {
+	font-family: Verdana;
+	font-size: 10px;
+}
+
+.menu_item {
+	width: 20%;
+	text-align: center;
+	background-color: #003300;
+	border: 2px solid #000000;
+	font-family: Verdana;
+	color: #FFFFFF;
+	font-size: 11px;
+}
+.menu_item_alt {
+	width: 20%;
+	text-align: center;
+	background-color: #006600;
+	border: 2px solid #000000;
+	font-family: Verdana;
+	color: #FFFFFF;
+	font-size: 11px;
+}
+.menu {
+	width: 100%;
+	background-color: #FFFFFF;
+}
+.menu_lang {
+	vertical-align: bottom;
+	width: 100%;
+}
+.menu_banner {
+	width: 750px;
+	vertical-align: bottom;
+}
+.link_dark {
+	color: #000000;
+}
+.link_general {
+	color: #0000FF;
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 8pt;
+}
+.link_small {
+	color: #0000FF;
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 8pt;
+}
+.link_v_small {
+	color: #0000FF;
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 7pt;
+}
+.main_table {
+	text-align: left; 
+	width: 100%;
+	height: 100%;
+	background-color: #FFFFFF;
+}
+.sec_table {
+	text-align: left; 
+	width: 100%;
+	height: 100%;
+}
+.gallery_table {
+	border: 2px solid #003300;
+	width: 80%;
+	text-align: center;
+}
+.gallery_heading {
+	font-family: Verdana;
+	font-size: 20px;
+	color: #003300;
+}
+.gallery_sub_heading {
+	font-family: Verdana;
+	font-size: 14px;
+	color: #003300;
+}
+.heading {
+	font-family: verdana;
+	font-size: 18px;
+	font-weight: bold;
+}
+.heading_over {
+	font-family: verdana;
+	font-size: 18px;
+	font-weight: bold;
+	color: #0000FF;
+}
+.sub_heading {
+	font-family: verdana;
+	font-size: 12px;
+}
+.shoutbox {
+	border: 1px solid #000000;
+	width: 140px;
+	height: 300px;
+}
+.sidebar_head {
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 8pt;
+}
+.required {
+	color: #FF0000;
+	font-size: 8pt;
+}
+.textarea {
+	overflow: auto;
+}
+.message {
+	border: 1px solid #FF0000; 
+	border-top-style: dashed; 
+	border-left-style: none; 
+	border-bottom-style: dashed; 
+	border-right-style: none; 
+	width: 100%; 
+	background-color: #339900; 
+	font-family: Verdana; 
+	font-size: 10pt;
+	color: #FFFFFF;
+}
+ul {
+	text-align:left;
+	list-style-type:disc;
+	padding:0 0 0 1em;
+}
+h1, h2, h3, h4 {
+	font-family:arial;
+	font-weight:normal;
+	/* Fix for IE bug, which results in main h1 being hidden by background! */
+	position:relative;
+}
+h1, h2 {
+	font-size:1.4em;
+}
+#main-box h1 {
+	margin:0;
+}
+/*#main {
+	width: 62em;
+	position: absolute;
+	top: 74px;
+	left: 70%;
+	margin-left: -31em;
+	padding: 0;
+}
+*/
+#main {
+        width: 37em;
+        margin: auto;
+        padding: 0;
+		top: 74px;
+		position: absolute;
+		left: 70%;
+		margin-left: -31em;
+}
+#tabs {
+	font-family: Verdana;
+	font-size: .95em;
+	margin: 21px 0 0 21px;
+	padding: 0;
+	height: 1.7em;
+}
+#tabs li {
+	float: left;
+	list-style: none;
+	background: #008000 url(/mini/images/tab-right-green-new.gif) top right no-repeat;
+	padding:0;
+	margin:0 5px 0 0;
+}
+#tabs li.on {
+	background-color: #003300;
+}
+#tabs li a {
+	background:url(/mini/images/tab-left-green.gif) top left no-repeat;
+	display: block;
+	float: left;
+	width: 7em;
+	line-height: 1.7em;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+}
+#tabs a:hover, #tabs a:active {
+	text-decoration:underline;
+	color:#6f6f3a;
+}
+#main-box {
+	background: #ffc33e url(/images/main-box-bg.gif) top left repeat-x;
+}
+.faded {
+	font-size:1.15em;
+	color:#665c31;
+	margin:.8em 0 0 1em;
+	font-family:arial;
+	letter-spacing:.03em;
+}
+.large {
+	font-size:1.6em;
+}
+
+#footer {
+	text-align:center;
+	font-size:.8em;
+	color:#888;
+	padding-top:1em;
+}
+#footer div {
+	margin:1em 0;
+}
+#footer a {
+	padding:0 1.4em;
+	font-size:110%;
+}
+
+.lbOn:link {
+    text-decoration:none;
+}
+#fcs a {
+	color:#000;
+}
+
+#fcs h2 {
+	font-size:1.15em;
+	margin:0;
+	height:1.4em;
+	padding-top:.5em;
+}
+#fcs .on h2 {
+	font-weight:bold;
+}
+.fc-middle {
+	float:left;
+	background-position:50% 50%;
+	background-repeat:no-repeat;
+	background-color:#fff;
+	width:100%;
+}
+.menu2 {
+	width: 80%;
+	background-color: #FFFFFF;
+}
+.questions {
+	margin:1em;
+}
+.questions h3 {
+	margin:0 0 .2em 0;
+	font-size:1.1em;
+	font-weight:bold;
+}
+.question {
+	padding: 1em 1em 1em 1.25em;
+	margin-bottom: 1em;
+	border: 1px solid #FFC33E;
+	/* Pos & Width for IE bug */
+	position: relative;
+	width: 95%;
+	background-color: #FFFFB1;
+	font-family: Verdana;
+	font-size: .75em;
+}
+#social {width:90%;}
+#social ul {margin:2px; list-style: none;float:left;}
+#social li {margin:2px; list-style: none;float:left;width:155px;}
+#social img {padding:0 3px;} 
